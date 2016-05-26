@@ -71,7 +71,7 @@ Examples:
 
 ATTENTION: The trailing slash is required.
 */
-$baseUrl = 'http://' . $_SERVER['SERVER_NAME'] . get_root('parent') . 'images/editor/';
+$baseUrl = 'http://' . $_SERVER['SERVER_NAME'] . '/images/editor/';
 
 /*
 $baseDir : the path to the local directory (in the server) which points to the
