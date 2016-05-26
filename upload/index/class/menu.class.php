@@ -17,7 +17,7 @@ class menu extends table
 		$arr = parent::get_list();
 		for($i = 0; $i < count($arr); $i ++)
 		{
-			if(substr($arr[$i]['men_url'],0,5) != 'http:')
+			if(substr($arr[$i]['men_url'],0,5) != 'http:' || substr($arr[$i]['men_url'],0,6) != 'https:' || substr($arr[$i]['men_url'],0,4) != 'www.')
 			{
 				$arr[$i]['target'] = 0;
 			}else{
@@ -29,7 +29,7 @@ class menu extends table
 	
 	protected function deal($field,$val)
 	{
-		if($field == 'men_url' && substr($val,0,5) != 'http:' && substr($val,0,2) != './')
+		if($field == 'men_url' && substr($val,0,5) != 'http:' && substr($val,0,6) != 'https:' && substr($val,0,4) != 'www.' && substr($val,0,2) != './')
 		{
 			$val = S_ROOT . S_URL_PREFIX . $val;
 		}elseif(substr($val,0,2) == './'){
