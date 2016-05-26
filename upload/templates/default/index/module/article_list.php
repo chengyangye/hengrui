@@ -1,7 +1,7 @@
 {*<?php exit();?>*}
 {if $show_all_art != 1}
 	{foreach from=$best_art_cat name=best_art_cat item=cat}
-		{if $smarty.foreach.best_art_cat.index % 3 == 0}<div>{/if}
+		{if $smarty.foreach.best_art_cat.index % 2 == 0}<div>{/if}
 		<div class="box list index_list">
 			<div class="head">
 				<span>{$cat.cat_name}</span>
@@ -13,7 +13,7 @@
 				{/foreach}
 			</div>
 		</div>
-		{if $smarty.foreach.best_art_cat.index % 3 == 2 || $smarty.foreach.best_art_cat.last}<div class="clear"></div></div>{/if}
+		{if $smarty.foreach.best_art_cat.index % 2 == 1 || $smarty.foreach.best_art_cat.last}<div class="clear"></div></div>{/if}
 	{/foreach}
 {/if}
 <!-- 新秀 -->
