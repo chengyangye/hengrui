@@ -2,7 +2,7 @@
 
 body{margin:0;font-size:14px;font-family:'Microsoft Yahei','宋体',Arial;background:#e3e3e3;color:#333;}
 a{text-decoration:none;color:#333;}
-a:hover{color:#EE0000;}
+a:hover{color:#bb150a;}
 div{word-break:break-all;}
 img{border:none;}
 form,ul,li{margin:0;padding:0;}
@@ -17,29 +17,29 @@ table{width:100%;border:0;border-collapse:0;border-spacing:0;}
 
 #header{width:100%;background:#f5f5f5;}
 #main{width:100%;padding:10px 0 0 0;}
-#footer{width:100%;padding:20px 0;border-top:2px solid #EE0000;background:#f5f5f5;}
+#footer{width:100%;padding:20px 0;border-top:2px solid #bb150a;background:#f5f5f5;}
 
 #header .main{margin:0 auto;position:relative;}
-#header .top{height:3px;background:#EE0000;font-size:1px;}
+#header .top{height:3px;background:#bb150a;font-size:1px;}
 #header .logo{padding:5px 10px;}
 #header .logo img{height:40px;}
 
-#nav{width:100%;background:#EE0000;}
+#nav{width:100%;background:#bb150a;}
 #nav ul{margin:0 auto;}
 #nav li{float:left;padding:3px 2px;}
 #nav li a{display:block;height:30px;line-height:30px;padding:0 10px;font-size:16px;color:#FFF;}
-#nav li a:hover{background:#FFF;color:#EE0000;}
+#nav li a:hover{background:#FFF;color:#bb150a;}
 
 .box{padding:0 0 15px 0;}
-.box .head{height:40px;position:relative;border-bottom:2px solid #EE0000;background:#f5f5f5;}
-.box .head span{display:block;position:absolute;left:0;top:0;min-width:100px;_width:100px;height:40px;line-height:40px;padding:0 10px;text-align:center;font-size:16px;background:#EE0000;color:#FFF;}
-.box .head .more{display:block;position:absolute;right:10px;top:0;line-height:40px;font-size:14px;color:#EE0000;}
+.box .head{height:40px;position:relative;border-bottom:2px solid #bb150a;background:#f5f5f5;}
+.box .head span{display:block;position:absolute;left:0;top:0;min-width:100px;_width:100px;height:40px;line-height:40px;padding:0 10px;text-align:center;font-size:16px;background:#bb150a;color:#FFF;}
+.box .head .more{display:block;position:absolute;right:10px;top:0;line-height:40px;font-size:14px;color:#bb150a;}
 .box .main{background:#FFF;}
 
-.here{height:40px;position:relative;border-bottom:2px solid #EE0000;background:#eee;}
-.here span{display:block;position:absolute;left:0;top:0;min-width:100px;_width:100px;height:40px;line-height:40px;padding:0 10px;text-align:center;font-size:16px;background:#EE0000;color:#FFF;}
-.here .link{position:absolute;right:12px;top:10px;color:#EE0000;}
-.here .link a{color:#EE0000;padding:0 8px;}
+.here{height:40px;position:relative;border-bottom:2px solid #bb150a;background:#eee;}
+.here span{display:block;position:absolute;left:0;top:0;min-width:100px;_width:100px;height:40px;line-height:40px;padding:0 10px;text-align:center;font-size:16px;background:#bb150a;color:#FFF;}
+.here .link{position:absolute;right:12px;top:10px;color:#bb150a;}
+.here .link a{color:#bb150a;padding:0 8px;}
 
 .list{padding:0 0 10px 0;}
 .list .main{min-height:50px;_height:50px;padding:8px;}
@@ -57,10 +57,10 @@ table{width:100%;border:0;border-collapse:0;border-spacing:0;}
 .page_link .inner{float:left;position:relative;left:50%;}
 .page_link .inner_2{float:left;position:relative;left:-50%;}
 .page_link a{display:block;float:left;height:22px;line-height:22px;padding:0 8px;margin:0 6px 0 0;border:1px solid #CCC;background:#DDD;font-size:12px;}
-.page_link .on{font-weight:bold;color:#EE0000;}
+.page_link .on{font-weight:bold;color:#bb150a;}
 
 #prev_next{padding:15px 5px;line-height:26px;}
-#prev_next a:hover{color:#EE0000;}
+#prev_next a:hover{color:#bb150a;}
 
 #article{padding:10px;margin:0 0 10px 0;background:#FFF;}
 #article .title{text-align:center;}
@@ -75,7 +75,7 @@ table{width:100%;border:0;border-collapse:0;border-spacing:0;}
 .mes_sheet{padding:0 10px;color:#333;}
 .mes_sheet li{list-style:none;border-bottom:1px dashed #999;padding:10px 0;}
 .mes_sheet div{line-height:20px;}
-.mes_sheet span{color:#EE0000;}
+.mes_sheet span{color:#bb150a;}
 .mes_sheet .reply{border:1px solid #CCC;background:#f5f5f5;margin:10px;padding:10px;}
 	
 #leave_word{padding:10px 0;border:1px solid #CCC;background:#f5f5f5;}
@@ -86,13 +86,13 @@ table{width:100%;border:0;border-collapse:0;border-spacing:0;}
 #leave_word textarea{height:100px;width:450px;}
 	
 #comment{margin:0 0 10px 0;background:#FFF;}
-#comment .head{height:40px;position:relative;border-bottom:2px solid #EE0000;background:#f5f5f5;}
-#comment .head span{display:block;position:absolute;left:0;top:0;min-width:100px;_width:100px;height:40px;line-height:40px;padding:0 10px;text-align:center;font-size:16px;background:#EE0000;color:#FFF;}
+#comment .head{height:40px;position:relative;border-bottom:2px solid #bb150a;background:#f5f5f5;}
+#comment .head span{display:block;position:absolute;left:0;top:0;min-width:100px;_width:100px;height:40px;line-height:40px;padding:0 10px;text-align:center;font-size:16px;background:#bb150a;color:#FFF;}
 #comment .main{padding:10px;}
 	
 #info{padding:10px;}
 #info .main{text-align:center;padding:50px 0;}
 #info .main div{padding:10px 0;font-size:16px;}
-#info .main a{color:#EE0000;}
+#info .main a{color:#bb150a;}
 #info .main a:hover{text-decoration:underline;}
 	
