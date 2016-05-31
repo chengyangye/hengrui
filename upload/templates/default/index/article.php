@@ -7,20 +7,19 @@
 	<meta name="description" content="{$describe}" />
 	<meta name="version" content="{$version}" />
 	<title>{if $page_title}{$page_title} - {/if}{if $cat_name}{$cat_name} - {/if}{$channel_title} - {$site_title}</title>
-	<link href="{$S_TPL_PATH}css/index.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/app.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	{run module='header'}
-	<div id="main">
-		{run module='ad' id='2'}
-		<div id="left">
-			{include file="module/here.php"}
-			{run module='article_main'}
-			{if $global.id}{run module='comment'}{/if}
-		</div>
-		<div id="right">
+	<div id="main" class="wrap mt-10">
+		<div id="left" class="sub_left ll">
+
 			{run module='new_article'}
 			{run module='best_article'}
+		</div>
+		<div id="right" class="sub_right r">
+			{include file="module/here.php"}
+			{run module='article_main'}
 		</div>
 		<div class="clear"></div>
 	</div>

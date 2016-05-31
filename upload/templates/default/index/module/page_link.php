@@ -1,7 +1,7 @@
 {*<?php exit();?>*}
 <div class="page_link">
 	<div class="inner">
-		<div class="inner_2">
+		<div class="inner_2 list_page">
 			{if $page_sum != 1}
 			<a href="{url prefix=$prefix page=1}">首页</a>
 			{if $page-1 > 0}<a href="{url prefix=$prefix page=$page-1}">上一页</a>{/if}
@@ -21,4 +21,5 @@
 	</div>
 	<div class="clear"></div>
 </div>
+
 <!-- 新秀 -->

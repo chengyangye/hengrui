@@ -26,17 +26,20 @@
         <div class="logo l"><a target="_blank" href="/"><img alt="南方文交所" src="templates/default/images/logo.png" data-bd-imgshare-binded="1"></a></div>
         <div class="clear"></div>
     </div>
+    <nav>
+    <div class="wrop">
+    	<div id="main_nav">
+    		<ul>
+    			{foreach from=$nav name=nav item=item}
+    			<li><a href="{$item.men_url}" {if $item.target == 1}target="_blank"{/if}>{$item.men_name}</a></li>
+    			{/foreach}
+    			<div class="clear"></div>
+    		</ul>
+    	</div>
+    </div>
+    </nav>
 </div>
-<div class="wrop">
-	<div id="main_nav">
-		<ul>
-			{foreach from=$nav name=nav item=item}
-			<li><a href="{$item.men_url}" {if $item.target == 1}target="_blank"{/if}>{$item.men_name}</a></li>
-			{/foreach}
-			<div class="clear"></div>
-		</ul>
-	</div>
-</div>
+
 {literal}
 <script language="javascript">
 	function do_search()
@@ -49,3 +52,5 @@
 </script>
 {/literal}
 <!-- 新秀 -->
+
+

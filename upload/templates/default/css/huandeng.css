@@ -1,0 +1,158 @@
+@charset "gb2312";
+/* CSS Document */
+
+
+.area {
+	width:1000px;
+	padding:0 5px;
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	overflow:hidden;
+	margin-top:10px;
+}
+.fl {
+  float: left;
+}
+.FocusPic {
+  zoom: 1;
+  position: relative;
+  overflow: hidden;
+}
+.FocusPic .content {
+  overflow: hidden;
+}
+.FocusPic .changeDiv a {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+.FocusPic .title-bg {
+  background: #000;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.FocusPic .title-bg, .FocusPic .title {
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 1000px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+.FocusPic .title-bg, .FocusPic .title {
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 1000px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+.FocusPic .title a {
+  display: block;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 14px;
+}
+.FocusPic .change {
+  bottom: 4px;
+  height: 20px;
+  right: 3px;
+  _right: 4px;
+  position: absolute;
+  text-align: right;
+  z-index: 9999;
+}
+.FocusPic .change i {
+  background: #666;
+  color: #FFF;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 15px;
+  margin-right: 2px;
+  padding: 2px 6px;
+  font-style: normal;
+  height: 15px;
+  display: inline-block;
+  display: -moz-inline-stack;
+  zoom: 1;
+}
+.w250 {
+  width: 250px;
+}
+.fr {
+  float: right;
+}
+.sideBox {
+  vertical-align: middle;
+}
+.sideBox {
+  border: 1px solid #d40110;
+  position: relative;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+.sideBox h2 {
+  background: #d40110 url(../images/bg_hd.jpg) center top;
+  height: 31px;
+  padding: 8px 0 0 0px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.icon_lists {
+  padding: 15px 0 0 10px;
+}
+.icon_lists {
+  position: relative;
+  padding: 11px 0 0 6px;
+}
+.icon_lists a {
+    width: 70px;
+  height: 80px;
+  margin: 0 10px 10px 10px;
+}
+.icon_lists a {
+  display: inline;
+  float: left;
+  color: #9c9c9c;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  outline: 0;
+  overflow: hidden;
+}
+.icon_lists .iconfont {
+  line-height: 48px;
+}
+.icon_lists .iconfont {
+  font-size: 22px;
+  line-height: 1.8;
+  margin: 10px 0 0 0;
+  color: #f40;
+  -webkit-transition: font-size 0.25s ease-out 0s;
+  -moz-transition: font-size 0.25s ease-out 0s;
+  transition: font-size 0.25s ease-out 0s;
+}
+.iconfont {
+  font-family: "iconfont";
+  font-size: 16px;
+  font-style: normal;
+}
+
+.FocusPic{zoom:1;position:relative; overflow:hidden;}
+.FocusPic .content{overflow:hidden}
+.FocusPic .changeDiv a{position:absolute;top:0px;left:0px;display:none;}
+.FocusPic .title-bg,.FocusPic .title{position:absolute;left:0px;bottom:0;width:1000px;height:30px;line-height:30px;overflow:hidden}
+.FocusPic .title-bg{background:#000;filter:alpha(opacity=50);opacity:0.5;}
+.FocusPic .title a{display:block;padding-left:15px;color:#fff; font-size:14px;}
+.FocusPic .change{bottom:4px;height:20px;right:3px;*right:5px;_right:4px;position:absolute;text-align:right;z-index:9999;}
+.FocusPic .change i {background:#666;color:#FFF;cursor:pointer;font-family:Arial;font-size:12px;line-height:15px;margin-right:2px;padding:2px 6px; font-style:normal; height:15px;display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline;}
+.FocusPic .change i.cur {background:#FF7700;}
